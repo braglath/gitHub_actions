@@ -8,3 +8,8 @@ jobs:
         run: echo "Welcome to gitHub Actions udemy course"
       - name: Print Hello World
         run: echo "Hello World"
+      - name: Running multiple commands
+        run: |
+          echo "this is my first command"
+          echo "this is my second command"
+          echo "this is my third command"
